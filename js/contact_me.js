@@ -22,18 +22,18 @@ $(function() {
 				method: "POST",
                 //url: "././mail/contact_me.php",
                 //type: "POST",
-                /* data: {
-                    name: name,
-                    phone: phone,
-                    email: email,
-                    message: message
-                },*/
+                // data: {
+                //    name: name,
+                //    phone: phone,
+                //    email: email,
+                //    message: message
+                //},
                 data: {message: "hello!"},
                 dataType: "json",
                 /* headers: {
      				'Accept': 'application/json',
 				    'Content-Type': 'application/x-www-form-urlencoded'
-				} 
+				}
                 cache: false,
                 success: function() {
                     // Success message
@@ -41,7 +41,7 @@ $(function() {
                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
                     $('#success > .alert-success')
-                        .append("<strong>" + firstName + ", your message has been sent. </strong>");
+                        .append("<strong>Your message has been sent. </strong>");
                     $('#success > .alert-success')
                         .append('</div>');
 
@@ -57,7 +57,7 @@ $(function() {
                     $('#success > .alert-danger').append('</div>');
                     //clear all fields
                     $('#contactForm').trigger("reset");
-                },*/
+                },
             })
         },
         filter: function() {
