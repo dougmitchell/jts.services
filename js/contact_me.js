@@ -19,16 +19,19 @@ $(function() {
             }
             $.ajax({
                 //url: "././mail/contact_me.php",
-                url: "//formspree.io/emory.kris@trashmail.com",
                 method: "POST",
                 //type: "POST",
+                url: "http://formspree.io/dmitche+formspree@gmail.com",
                 data: {
                     name: name,
                     phone: phone,
                     email: email,
                     message: message
                 },
-                dataType: "json"
+                headers: {
+     				'Accept': 'application/json',
+				    'Content-Type': 'application/x-www-form-urlencoded'
+				}
                 cache: false,
                 success: function() {
                     // Success message
