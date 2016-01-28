@@ -22,12 +22,13 @@ $(function() {
 				method: "POST",
                 //url: "././mail/contact_me.php",
                 //type: "POST",
-                data: {
+                /* data: {
                     name: name,
                     phone: phone,
                     email: email,
                     message: message
-                },
+                },*/
+                data: {message: "hello!"},
                 dataType: "json",
                 /* headers: {
      				'Accept': 'application/json',
