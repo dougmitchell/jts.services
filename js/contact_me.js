@@ -19,7 +19,7 @@ $(function() {
             }
             $.ajax({
                 //url: "././mail/contact_me.php",
-                url: "//formspree.io/dmitche@gmail.com",
+                url: "//formspree.io/emory.kris@trashmail.com",
                 method: "POST",
                 //type: "POST",
                 data: {
