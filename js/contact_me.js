@@ -20,15 +20,12 @@ $(function() {
             $.ajax({
 				url: "http://formspree.io/emory.kris@trashmail.com",
 				method: "POST",
-                //url: "././mail/contact_me.php",
-                //type: "POST",
                 data: {
                     name: name,
                     phone: phone,
                     email: email,
                     message: message
                 },
-                //data: {message: "hello!"},
                 dataType: "json",
                 cache: false,
                 success: function() {
