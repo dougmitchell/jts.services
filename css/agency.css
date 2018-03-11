@@ -191,7 +191,6 @@ fieldset[disabled] .btn-xl.active {
 }
 header {
     background-image: url(../img/header-bg-light.jpg);
-    background color: #000;
     background-repeat: none;
     background-attachment: scroll;
     background-position: center center;
