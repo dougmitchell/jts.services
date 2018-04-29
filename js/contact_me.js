@@ -52,6 +52,7 @@ $(function() {
                     $('#contactForm').trigger("reset");
                 },
                 ga('send', {
+  hitType: 'event',
   eventAction: 'Send Message'
 }),	
             })
