@@ -52,6 +52,10 @@ $(function() {
                     //clear all fields
                     $('#contactForm').trigger("reset");
                 },
+                ga('send', {
+  hitType: 'event',
+  eventAction: 'Send Message'
+}),	
             })
         },
         filter: function() {
